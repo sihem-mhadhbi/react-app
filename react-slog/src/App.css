@@ -1,9 +1,15 @@
 .App {
-  text-align: center;
+  width: 100%;
+  max-width: 330px;
+  padding: 50px;
+  margin: auto;
+  height: 200%;
+  background-color: bisque;
+  margin-top: 50px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -15,12 +21,12 @@
 
 .App-header {
   background-color: blanchedalmond;
-  min-height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: black;
 }
 

@@ -15,6 +15,8 @@ function App() {
     <Container>
       <div className="App">
         <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+
           <Form>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
@@ -35,7 +37,6 @@ function App() {
               Submit
             </Button>
           </Form>
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Contact <code>With Others</code> and enjoy.
           </p>
